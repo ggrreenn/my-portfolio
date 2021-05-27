@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.titleFont {
+  font-family: "Amatic SC", cursive;
+}
+
+.mainTextFont {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.profileFont {
+  font-family: "Mate SC", serif;
+}
+
+.linkFont {
+  font-family: "Dancing Script", cursive;
+}
+
+.extraBold {
+  font-family: "Montserrat", sans-serif;
+}
+
+.iconStyle {
+  color: #b37e7f;
+  font-size: 5rem;
+  padding: 0.75rem;
+}
