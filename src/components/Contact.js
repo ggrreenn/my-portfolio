@@ -2,7 +2,7 @@ import React from "react";
 //image
 import contactBackground from "../images/the-creative-exchange-d2zvqp3fpro-unsplash.jpg";
 //logos
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import googleGmail from "@iconify-icons/logos/google-gmail";
 import instagramIcon from "@iconify-icons/logos/instagram-icon";
 import youtubeIcon from "@iconify-icons/logos/youtube-icon";
@@ -25,18 +25,19 @@ export default function Contact() {
           </a>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/greenie-ng-222831185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0MzvZBPdQoWtRmO75Z8QPA%3D%3D"
           >
             <Icon icon={linkedinIcon} className="iconStyle " />
           </a>
-          <a href="" className="mainTextFont text-primaryText">
+          <span className="mainTextFont text-primaryText">
             <Icon icon={instagramIcon} className="iconStyle " />
             Coming Soon
-          </a>
-          <a href="" className="mainTextFont text-primaryText">
+          </span>
+          <span className="mainTextFont text-primaryText">
             <Icon icon={youtubeIcon} className="iconStyle " />
             Coming Soon
-          </a>
+          </span>
         </section>
         <section>
           <h1 className="text-base md:text-xl my-7 mainTextFont text-primaryText text-center">

@@ -4,7 +4,7 @@ import React from "react";
 import homeBackground from "../images/bench-accounting-nvzvOPQW0gc-unsplash.jpg";
 import capScreen from "../images/Screenshot_2021-05-27 freeCodeCamp org.png";
 //icons
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import githubIcon from "@iconify-icons/logos/github-icon";
 import codesandboxIcon from "@iconify-icons/logos/codesandbox";
 import linkedinIcon from "@iconify-icons/logos/linkedin-icon";
@@ -73,7 +73,11 @@ export default function Home() {
             Some of my projects are uploaded to codesandbox and github Click on
             them to see more:
           </p>
-          <a href="https://github.com/ggrreenn" target="_blank">
+          <a
+            href="https://github.com/ggrreenn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Icon icon={githubIcon} className="iconStyle" />
           </a>
           <a href="https://codesandbox.io/u/greenie629">
