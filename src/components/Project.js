@@ -20,7 +20,7 @@ export default function Project() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "project"]{
+        `*[_type == "project"] | order(date desc){
     title,
     date,
     place,

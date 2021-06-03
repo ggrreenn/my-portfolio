@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 //images
 import homeBackground from "../images/bench-accounting-nvzvOPQW0gc-unsplash.jpg";
@@ -36,13 +37,13 @@ export default function Home() {
         </section>
         <section className="bg-primaryBackground my-6 px-6 py-6 md:px-14 md:py-14 md:my-12">
           <p className="text-base md:text-xl text-primaryText mainTextFont ">
-            I graduated from the Chinese University in 2020. While persuing my
-            MPhil study in evolutionary biology, I have started learning web
-            development as my side career. Within 5 months, I’ve mastered
-            courses about front end design and languages. I have built projects
-            to showcase my ability which you may refer to at My Projects. I am
-            available for any freelancing job. You may contact me by referring
-            to any methods shown here.
+            I graduated from the Chinese University of Hong Kong in 2020. While
+            persuing my MPhil study in evolutionary biology right now, I have
+            started learning web development as my side gig. Within 5 months,
+            I’ve mastered courses about front end design and languages. I have
+            built projects to showcase my ability which you may refer to at My
+            Projects. I am available for any freelancing job. You may contact me
+            by any methods shown <NavLink to="/contact">here</NavLink>.
           </p>
         </section>
         <section className="lg:grid lg:grid-cols-3 lg:mb-12">

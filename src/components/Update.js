@@ -41,7 +41,7 @@ export default function Update() {
                 <h3 className="titleFont text-primaryText tracking-widest text-2xl mb-2">
                   {new Date(post.date).toLocaleDateString()}
                 </h3>
-                <p className="mainTextFont text-primaryText text-base bg-white px-5 py-5 md:px-8 md:py-8">
+                <p className="mainTextFont text-primaryText text-xl bg-white px-5 py-5 md:px-8 md:py-8">
                   {post.description}
                 </p>
               </section>
