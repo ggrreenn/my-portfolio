@@ -39,9 +39,9 @@ export default function Home() {
           <p className="text-base md:text-xl text-primaryText mainTextFont ">
             I graduated from the Chinese University of Hong Kong in 2020. While
             persuing my MPhil study in evolutionary biology right now, I have
-            started learning web development as my side gig. Within 5 months,
-            I’ve mastered courses about front end design and languages. I have
-            built projects to showcase my ability which you may refer to at My
+            started web development as my side gig. Within 5 months, I’ve
+            mastered courses about front end design and languages. I have built
+            projects to showcase my ability which you may refer to at My
             Projects. I am available for any freelancing job. You may contact me
             by any methods shown <NavLink to="/contact">here</NavLink>.
           </p>
@@ -71,7 +71,7 @@ export default function Home() {
         </section>
         <section className="grid grid-cols-2 place-items-center">
           <p className="col-span-2 text-primaryText mainTextFont text-center my-2 md:my-5 text-base md:text-xl">
-            Some of my projects are uploaded to codesandbox and github Click on
+            Some of my projects are uploaded to codesandbox and github. Click on
             them to see more:
           </p>
           <a
